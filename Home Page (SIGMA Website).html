@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Bahnschrift SemiLight', Arial, sans-serif;
+            background-color: #f7d4e5; /* Light pink */
+            color: #6e2142; /* Dark pink */
+        }
+        .header {
+            background-image: url('https://images.creativemarket.com/0.1.0/ps/9680327/3640/2410/m1/fpnw/wm1/p6031141-28-.jpg?1610112899&s=488b3c6664a8065a8eca5b0425068ce9');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .brand-name {
+            font-size: 72px;
+            font-weight: bold;
+            color: rgb(98, 93, 93);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation a {
+            color: #e40968; /* Dark pink */
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #df0b67; /* Dark pink */
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        .navigation a:hover {
+            background-color: #ef1875; /* Dark pink */
+            color: rgb(109, 101, 101);
+        }
+        .content {
+            padding: 50px;
+            background-color: #f9e1e8; /* Light pink */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="overlay">
+            <div class="brand-name">SIGMA</div>
+            <div class="navigation">
+                <a href="skincare.html">Skincare</a>
+                <a href="haircare.html">Haircare</a>
+                <a href="makeup.html">Makeup</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="skincare">
+        <h1>Skincare</h1>
+        <p>This is the skincare page content.</p>
+    </div>
+
+    <div class="content" id="haircare">
+        <h1>Haircare</h1>
+        <p>This is the haircare page content.</p>
+    </div>
+
+    <div class="content" id="makeup">
+        <h1>Makeup</h1>
+        <p>This is the makeup page content.</p>
+    </div>
+</body>
+</html>
